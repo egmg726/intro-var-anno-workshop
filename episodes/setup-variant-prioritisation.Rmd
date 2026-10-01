@@ -1,0 +1,56 @@
+---
+title: 'Setup'
+teaching: 10
+exercises: 2
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- placeholder
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- placeholder
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+<span style="font-size: 1.5em;">Please follow the instructions bellow **before** the scheduled workshop.</span>
+
+## Install R & RStudio
+- In this workshop, we will be working through a practical case study where you will be analysing and visualising data. 
+- We will be using **R** and **RStudio** (an easy to use interface for R)
+- Please download and install both prior to the workshop session by following the links bellow.
+
+   - R - https://cran.r-project.org/bin/windows/base/
+   - RStudio: https://docs.posit.co/ide/user/
+   
+## Install R Packages
+**STEPS**
+
+1. Open RStudio.
+
+2. Find the console.
+
+3. Run the install command bellow and follow prompts. 
+
+::: callout
+
+``` r
+# Install all required packages for Variant Prioritisation
+
+install.packages(c("vcfR", "dplyr", "ggplot2", "tidyr"))
+
+```
+
+``` r
+# Verify Iinstallation worked
+
+library(vcfR); library(dplyr); library(ggplot2); library(tidyr)
+
+```
+:::
+## Download data
+- to be continued 
