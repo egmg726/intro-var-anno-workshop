@@ -24,6 +24,18 @@ exercises: 2
 options(digits = 3)
 ```
 
+```{r, echo=FALSE,message=FALSE}
+
+library(knitr)
+library(cli)
+library(vcfR)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+```
+
+
+
 ## Introduction
 
 This is an introduction to variant annotation. We will cover the basics of what 

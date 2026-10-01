@@ -3,6 +3,20 @@ title: 'Setup'
 teaching: 10
 exercises: 2
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- placeholder
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- placeholder
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 <span style="font-size: 1.5em;">Please follow the instructions bellow **before** the scheduled workshop.</span>
 
 ## Install R & RStudio
@@ -24,14 +38,14 @@ exercises: 2
 
 ::: callout
 
-```
+``` r
 # Install all required packages for Variant Prioritisation
 
 install.packages(c("vcfR", "dplyr", "ggplot2", "tidyr"))
 
 ```
 
-```
+``` r
 # Verify Iinstallation worked
 
 library(vcfR); library(dplyr); library(ggplot2); library(tidyr)

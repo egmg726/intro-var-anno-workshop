@@ -20,7 +20,7 @@ carpentry: 'uom'
 title: 'Introduction to Variant Annotation'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created:
 
 # Comma-separated list of keywords for the lesson
 keywords: 'genetic variants, annotation, gene, software, data, lesson'
@@ -65,7 +65,7 @@ contact: 'fixme@fixme.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.Rmd
 - what-is-var-anno.Rmd
 - tools.Rmd
@@ -73,13 +73,13 @@ episodes:
 - setup-variant-prioritisation.Rmd
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
